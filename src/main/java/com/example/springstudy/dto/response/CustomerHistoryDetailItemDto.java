@@ -9,6 +9,6 @@ public class CustomerHistoryDetailItemDto {
     private Long itemId;
     private String itemName;
     private String imageUrl;
-    private Long itemPrice;
-    private Long itemAmount;
+    private Integer itemPrice;
+    private Integer itemAmount;
 }

@@ -11,7 +11,7 @@ import java.util.Map;
 @RequestMapping("/customers")
 @RequiredArgsConstructor
 public class CustomerController {
-    private CustomerService customerService;
+    private final CustomerService customerService;
 
     @GetMapping("/history/detail/{orderId}")
     public ResponseDto<Map<String, Object>> customerHistoryDetail(
